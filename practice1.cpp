@@ -49,9 +49,11 @@ Passenger::Passenger(const Passenger& pass) {
 void Passenger::printPassenger(){
     std::cout<< this->name<<std::endl;
     std::cout<< this->mealPref<<std::endl;
-    std::cout<< this->isFreqFlyer<<std::endl;
-    std::cout<< this->freqFlyerNo<<std::endl;
+    if(this->isFreqFlyer){
+         std::cout<< this->freqFlyerNo<<std::endl;
+    }
 }
+    
 
 int main()
 {
