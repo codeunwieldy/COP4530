@@ -2,6 +2,7 @@
 // isFrequentFlyer is an accessor (only read class data)
 #include<string>
 
+
 enum MealType { NO_PREF, REGULAR, LOW_FAT, VEGETARIAN };
 
 class Passenger {
